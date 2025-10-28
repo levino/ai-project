@@ -1,0 +1,15 @@
+{
+  "name": "ai-project",
+  "version": "1.0.0",
+  "description": "A template to build a new project with claude",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "claude": "claude --dangerously-skip-permissions"
+  },
+  "author": "Levin Keller",
+  "license": "MIT",
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "^2.0.28"
+  }
+}
