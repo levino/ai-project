@@ -3,5 +3,6 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
 	"remoteEnv": {
 		"ANTHROPIC_AUTH_TOKEN": "${localEnv:ANTHROPIC_AUTH_TOKEN}"
-	}
+	},
+	"updateContentCommand": "npm install"
 }
